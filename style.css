@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background: lavenderblush;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  background: mediumpurple;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.subtitulo {
+  margin-top: 8px;
+  font-style: italic;
+}
+
+section {
+  padding: 0 20px;
+  margin: 0 100px;
+}
+
+.sobre {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: rebeccapurple;
+  margin-bottom: 8px;
+}
+
+.imagem {
+  text-align: center;
+}
+.imagem img {
+  width: 500px;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.botoes {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+a {
+  display: inline-block;
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+a:hover {
+  background-color: rebeccapurple;
+}
+
+footer {
+  background-color: mediumpurple;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+}
